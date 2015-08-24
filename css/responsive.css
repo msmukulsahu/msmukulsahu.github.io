@@ -1,0 +1,248 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+	/* PORTFOLIO */
+	.c4 { width: 747px !important;  }
+	.c4  li { width: 186px !important; height: 174px !important; }
+	.c4 li img { width: 186px !important; height: 174px !important; }	
+	.c4 article.da-animate i.fa { margin-top: 75px !important; }
+	.c4 article.da-animate h3 { margin-top: 30px !important; }
+
+		/* Single Project */
+		.p-item-holder { height: 294px !important; }
+
+		
+
+
+	/*	PRICING TABLE 	*/	
+	.pricing-item { width: 187px !important; }	
+
+	/*	FEATURED ITEMS	*/
+	.featured-item .ficon-holder { margin-left: 45px !important; }
+
+	/*	CAROUSEL  */
+	.jcarousel-next { right:344px !important;  }
+	.jcarousel-prev { right: 367px !important;  }
+
+	/*	CONTACT */	
+	#contact-map .contact-holder { width: 740px !important; }
+	#contact-map .contact-holder .contact-form-holder { width: 740px !important; padding: 0px !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-info { width: 300px !important;  }
+	#contact-map .contact-holder .contact-form-holder .contact-form { width: 360px !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-form input[type="text"] { width: 70% !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-form textarea { width: 80% !important; }
+
+	/*	BLOG	*/
+	.blog-article img, .blog-article iframe, .blog-hover-shadow, .blog-article .slides { width: 540px !important; height: 238px !important; }
+	.blog-article .post-content .post-data-author, .blog-article .post-content .post-excerpt { width: 490px !important; }
+	.post-navigation { width: 555px !important; }
+	.blog-article .slides { width: 540px !important; }
+			
+
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px)  {
+
+	/*	FIRST HALF SCREEN & LAST HALF SCREEN	*/	
+	.first-half i.screen {  display: none !important; }
+	.first-half .first-half-content { visibility: visible !important; opacity: 1 !important; }
+	.last-half i.screen {  display: none !important; }
+	.last-half .last-half-content { visibility: visible !important; opacity: 1 !important; }
+	.last-half-shadow { display: none !important; }
+	.last-half .contact-info-holder { display: block !important; margin-top: 15% !important;  }
+
+
+	/*	First & Last - Change width	*/
+		.first-half { width: 100% !important; }
+		.last-half { width: 100% !important; }
+		.copyright { display: none; }
+	    ul.main-menu { margin: 30px 0 30px !important; }
+		.first-half-social { margin-top:0 !important; margin-bottom: 30px !important;  }
+
+		
+
+	/* PORTFOLIO */
+	.c4 { width: 420px !important; }
+	.c4  li { width: 210px !important; height: 197px !important; }
+	.c4 li img { width: 210px !important; height: 197px !important; }	
+	.c4 article.da-animate i.fa { margin-top: 85px !important; }
+	.c4 article.da-animate h3 { margin-top: 35px !important; }	
+
+		/* Single Project */
+		.p-item-holder { height: 165px !important; }
+
+		/* Magnific Popup */
+		.mg-popup, .mg-popup .mg-image-holder { width: 420px !important; }
+		.mg-popup .mg-video-holder { width: 420px !important; height: 250px !important; }
+		.mg-popup img { width: 420px !important; height: 391px !important; }
+
+		
+	/*	PRICING TABLE 	*/		
+	.pricing-item { width: 416px !important;  }		
+	.pricing-table { border-left: solid 1px #dddddd; }	
+
+	/*	FEATURED ITEMS	*/
+	.featured-item .ficon-holder { margin-left: 170px !important; }
+
+	/*	CAROUSEL  */
+	.jcarousel-next { right:177px !important;  }
+	.jcarousel-prev { right: 200px !important;  }
+
+	/*	FOOTER	*/
+	.page-bottom-menu .first-eight { text-align: center !important;  }
+	.page-bottom-menu .second-eight { padding-bottom: 13px; padding-top: 8px !important;  text-align: center !important; margin-left: 0px !important; margin-right:5px !important;  }
+
+	/*	CONTACT */	
+	#contact-map { height: 850px !important; }
+	#contact-map .contact-holder { margin-top: -735px !important; }
+	#contact-map .contact-holder { width: 405px !important; }
+	#contact-map .contact-holder .contact-form-holder { width: 405px !important; padding: 0px !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-info { width: 355px !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-form { width: 355px !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-form input[type="text"] { width: 97.5% !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-form textarea { width: 96% !important; }	
+
+
+	/*	BLOG  */		
+	.blog-article img, .blog-article iframe, .blog-hover-shadow,  .blog-article .slides  { width: 420px !important; height: 185px !important; }
+	.blog-article .post-content .post-data-author, .blog-article .post-content .post-excerpt { width: 350px !important; }	
+	.post-navigation { width: 420px !important; }
+	.blog-article .slides { width: 420px !important; }
+	.post-navigation { margin:0 !important; padding-bottom: 40px; border-bottom:1px dotted #dfdfdf; }
+	.post-navigation ul.p-navigation { float: left !important;  }
+	aside.sidebar { margin-top:0px !important; }
+	.reply-holder input[type="text"] { width: 80% !important; }
+	.reply-holder textarea { width: 90% !important; }
+	.searcw { width: 96% !important; }
+		
+
+	}
+
+
+	@media only screen and (max-width: 479px)  {
+
+	/*	FIRST HALF SCREEN & LAST HALF SCREEN	*/	
+	.first-half i.screen {  display: none !important; }
+	.first-half .first-half-content { visibility: visible !important; opacity: 1 !important; }
+	.last-half i.screen {  display: none !important; }
+	.last-half .last-half-content { visibility: visible !important; opacity: 1 !important; }
+	.last-half-shadow { display: none !important; }
+	.last-half .contact-info-holder { display: block !important; margin-top: 15% !important;  }	
+
+		/*	First & Last - Change width	*/
+		.first-half { width: 100% !important; }
+		.last-half { width: 100% !important; }
+		.copyright { display: none; }
+	    ul.main-menu { margin: 30px 0 30px !important; }
+		.first-half-social { margin-top:0 !important; margin-bottom: 30px !important;  }
+		
+
+	/* PORTFOLIO */
+	.port-filter li { float: left; }
+	.c4 { width: 300px !important; }
+	.c4  li { width: 300px !important; height: 281px !important; }
+	.c4 li img { width: 300px !important; height: 281px !important; }	
+	.c4 article.da-animate i.fa { margin-top: 125px !important; }
+	.c4 article.da-animate h3 { margin-top: 75px !important; }
+
+		/* Single Project */
+		.p-item-holder { height: 118px !important; }
+
+		/* Magnific Popup */
+		.mg-popup, .mg-popup .mg-image-holder { width: 300px !important; }
+		.mg-popup .mg-video-holder { width: 300px !important; height: 207px !important; }
+		.mg-popup img { width: 300px !important; height: 279px !important; }
+
+
+	/*	FEATURED ITEMS	*/
+	.featured-item .ficon-holder { margin-left: 110px !important; }
+
+	/*	PRICING TABLE 	*/	
+	.pricing-item { width: 300px !important;  }		
+	.pricing-table { border-left: solid 1px #dddddd; }
+
+	/*	CAROUSEL  */
+	.jcarousel-next { right:117px !important;  }
+	.jcarousel-prev { right: 140px !important;  }
+
+
+
+	/*	FOOTER	*/
+	.page-bottom-menu .first-eight { text-align: center !important;  }
+	.page-bottom-menu .second-eight { padding-bottom: 13px; padding-top: 8px !important;  text-align: center !important; margin-left: 0px !important; margin-right:5px !important;  }	
+
+
+	/*	CONTACT */	
+	#contact-map { height: 850px !important; }
+	#contact-map .contact-holder { margin-top: -735px !important; }
+	#contact-map .contact-holder { width: 290px !important;  }
+	#contact-map .contact-holder .contact-form-holder { width: 290px !important; padding: 0px !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-info { width: 255px !important; margin-left: 17px !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-form { width: 255px !important; margin-right: 17px !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-form input[type="text"] { width: 97.5% !important; }
+	#contact-map .contact-holder .contact-form-holder .contact-form textarea { width: 95% !important; }
+
+
+	/*	BLOG  */		
+	.blog-article img, .blog-article iframe, .blog-hover-shadow, .blog-article .slides { width: 300px !important; height: 132px !important; }
+	.blog-article .post-content .post-data-author, .blog-article .post-content .post-excerpt { width: 240px !important; }			
+	.post-navigation { width: 300px !important; }
+	.blog-article .slides { width: 300px !important; }
+	.post-navigation { margin:0 !important; padding-bottom: 40px; border-bottom:1px dotted #dfdfdf; }
+	.post-navigation ul.p-navigation { float: left !important;  }
+	aside.sidebar { margin-top:0px !important; }
+	.reply-holder input[type="text"] { width: 97% !important; }
+	.reply-holder textarea { width: 95% !important; }
+	.searcw { width: 96% !important; }	
+
+
+
+	}
+
+	
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

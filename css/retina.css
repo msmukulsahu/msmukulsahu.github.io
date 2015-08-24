@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------*/
+/*	RETINA CSS	*/
+/*--------------------------------------------------------------------*/
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2){
+
+	.mg-popup .mg-image-holder  { background:#fff url(../images/loader-mg%402x.gif) center no-repeat !important; background-size: 24px 24px !important; }
+	.mg-popup .mg-video-holder { background:#fff url(../images/loader-mg%402x.gif) center no-repeat !important;  background-size: 24px 24px !important; }
+	.link-overlay { background-image: url(../images/link-overlay%402x.png) !important; background-size: 16px 16px !important; }
+	.zoom-overlay { background-image: url(../images/zoom-overlay%402x.png) !important; background-size: 16px 16px !important; }
+	.video-overlay { background-image: url(../images/video-overlay%402x.png) !important; background-size: 16px 16px !important; }
+
+}

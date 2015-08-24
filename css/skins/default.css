@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------------------*/
+/*********************************  DEFAULT SKIN  *********************************/
+/*--------------------------------------------------------------------------------*/
+/* If you want to change your skin just replace color value with your own that's all */
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*	COLOR ATTRIBUTE	*/
+/*--------------------------------------------------------------------*/
+
+	a:hover, a:focus, .first-half-social a:hover i, .dropcap-v1 p:first-letter, .fa-ul i.fa.colored, .featured-item:hover, .featured-item:hover h2,
+	.blog-article .post-content .post-data li a:hover, .blog-article .post-content .post-data li i.fa:hover, .ui-tabs .ui-tabs-nav li.ui-tabs-active a,
+	.top-promo-text h1, .top-promo-text-2 h1.big-h, .mg-popup .mg-title h2, ol.comment-list .comment-body .comment-meta a, .tweet-list a   {
+		color:#bf1e2e;
+	}
+
+	.accordions h2.active i.fa, .accordions h2.active, .page-top-menu ul.top-menu li.current a { color:#bf1e2e !important; }
+	
+
+
+/*--------------------------------------------------------------------*/
+/*	BACKGROUND COLOR ATTRIBUTE	*/
+/*--------------------------------------------------------------------*/
+
+	.port-filter li.current a, .port-filter li a:hover, ul.p-navigation li.current a, .btn.btn-skin, .service-item:hover, ::-webkit-scrollbar-thumb {
+		background-color: #bf1e2e;
+	}
+
+	::selection { background:#bf1e2e; }
+	::-moz-selection { background:#bf1e2e; }
+	::-webkit-selection  { background:#bf1e2e; }
+	
+
+
+
+/*--------------------------------------------------------------------*/
+/*	BORDER ATTRIBUTE	*/
+/*--------------------------------------------------------------------*/
+.ui-tabs .ui-tabs-nav li.ui-tabs-active { border-top: 1px solid #bf1e2e;  }
+blockquote.bq { border-left: 1px solid #bf1e2e; }
+.featured-item:hover .ficon-holder { border:2px dashed #bf1e2e; }
+.port-filter li.current a, .port-filter li a:hover { border:1px solid #bf1e2e; }
